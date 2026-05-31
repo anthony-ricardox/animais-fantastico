@@ -25,3 +25,12 @@ img.setAttribute("alt", "amor");
 const possuiAlt = img.hasAttribute('title')
 
 console.log(possuiAlt);
+
+
+const carro = { 
+    portas: 4,
+    andar(km){ 
+        km = 100 
+        console.log(`andou ${km}`)
+    }
+}
