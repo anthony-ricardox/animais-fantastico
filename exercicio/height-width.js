@@ -15,3 +15,24 @@ const h2 = primeiroh2.offsetLeft
 
 // Exibe no console a posição horizontal (esquerda) do h2
 console.log(h2)
+
+const rect = primeiroh2.getBoundingClientRect
+()
+
+console.log(rect)
+
+console.log(
+window.innerWidth,
+window.innerHeight,
+window.pageYOffset,
+window.pageXOffset
+
+)
+
+const small = window.matchMedia('(max-width: 600px)').matches
+if(small){  
+    console.log('Usuario Mobile')
+}else{
+    console.log('Usuario Desktop')
+}
+
