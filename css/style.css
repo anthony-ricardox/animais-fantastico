@@ -37,7 +37,7 @@ ul{
 }
 .menu li a{   
     display: block;
-    padding: 10px;
+    padding: 20px 20px;
     margin-right: 10px;
     color: #222;
     text-decoration: none;
