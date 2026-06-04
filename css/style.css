@@ -23,6 +23,13 @@ ul{
     list-style-type: none;
 }
 
+.azul{
+    background-color: aquamarine;
+}
+.vermelho{
+    background-color: #E54;
+}
+
 .menu{  
     grid-column: 3/5;
     margin-top: 2rem;
