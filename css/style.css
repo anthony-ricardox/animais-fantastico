@@ -23,6 +23,10 @@ ul{
     list-style-type: none;
 }
 
+.textomaior{
+    font-size: 120%;
+}
+
 .azul{
     background-color: aquamarine;
 }
