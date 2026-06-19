@@ -21,3 +21,7 @@ console.log(lista.children[--lista.children.length]);//pega o ultimo filho da li
 console.log(lista.children[0])//pega o primeiro elemento filho da lista
 
 console.log(lista.querySelector('lista:last-child'))// retorna o ultimo elemnt filho de lista
+
+//Node 
+
+console.log(lista.childNodes) //busca todos os filhos node da lista, retorna varios itens nodes , incluindo ate espaço e comentario se tiver dentro da tag
