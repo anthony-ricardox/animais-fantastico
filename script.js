@@ -9,3 +9,10 @@ function activeTab(index){
     tabContent[index].classList.add('active')
 
 }
+
+tabMenu.forEach((itemMenu, index)=>{   
+    itemMenu.addEventListener('click',()  =>{
+        activeTab(index)
+        
+    })
+})
