@@ -229,7 +229,7 @@ ul {
   }
 }
 
-.js-tabcontent section {
+.js .js-tabcontent section {
   display: none;
 }
 .js-tabcontent section.active {
