@@ -105,6 +105,10 @@ ul {
   overflow-y: scroll;
   grid-column: 2;
 }
+.animais-lista li {
+    cursor: pointer;
+}
+
 .animais-lista::-webkit-scrollbar {
   width: 18px;
 }
